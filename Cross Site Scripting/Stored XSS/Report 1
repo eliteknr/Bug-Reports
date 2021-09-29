@@ -1,0 +1,17 @@
+Summary:
+Stored XSS can be submitted on <page-name>, and anyone who will check the <page-name> the XSS will trigger.
+
+Description:
+Stored XSS, also known as persistent XSS, is the more damaging than non-persistent XSS.
+It occurs when a malicious script is injected directly into a vulnerable web application.
+
+Steps To Reproduce:
+1.
+2.
+3.
+
+Demonstration of the vulnerability:
+<Browser-name>
+
+Impact:
+The attacker can steal cookies.
