@@ -1,0 +1,12 @@
+Vulnerability description:
+These days Captcha's are one of the most vulnerable methods To Protect The Website From Bots.
+The Captcha Response is not validated on the server-side when submitting a Signup form to the endpoint.
+
+Steps To Reproduce:
+1. example.com/signup
+2. Fill the input field and Validate the captcha.
+3. Turn on Proxy(Burp, ZAP) submit form and capture the request.
+
+
+Impact:
+An Attacker use this Create fake accounts and full you database with unnecessary data.
